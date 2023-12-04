@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script/script.js"></script>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Nisa's Portfolio</a>
+        <div>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Service</a>
+                <a href="#content">Contact</a>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h6>My Name is</h6>
+            <h1>Khairunnisa Batubara.</h1>
+            <h3>Student at <span>IDN Boarding School</span></h3>
+            <div>
+
+                <a href="#about" class="btn-start">Explore</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="image/fotoo.png" alt="photo">
+        </div>
+    </section>
+    <section class="about-me" id="about">
+        <div class="about-content">
+            <h1>About <span>Me</span> </h1>
+        </div>
+        <div class="about-info">
+            <p>I’m <span>Khairunnisa Batubara</span>, people usually call me Nisa. I’m from 10th grade as a programmer
+                student. I was
+                born in Makassar June 10th 2008. My MBTI is INTP.</p>
+            <div class="social-media">
+                <a href="https://dribbble.com/niesa"><i class='bx bxl-dribbble'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/khairunnisa-batubara-56ba47231/"><i
+                        class='bx bxl-linkedin'></i></a>
+            </div>
+
+
+
+    </section>
+    <section class="skill" id="skill">
+        <h2>My<span> Skill</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class='bx bxl-figma'></i>
+                <h3>Figma</h3>
+                <h1>98%</h1>
+                <a href="#" class="btn-start">Read more</a>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bxl-android'></i>
+                <h3>Android</h3>
+                <h1>55%</h1>
+                <a href="#" class="btn-start">Read more</a>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-code'></i>
+                <h3>VSCode</h3>
+                <h1>40%</h1>
+                <a href="#" class="btn-start">Read more</a>
+            </div>
+    </section>
+    <section class="certificate" id="certificate">
+        <h1>Certi<span>ficate</span></h1>
+        <marquee scrollamount="15" class="project">
+            <img src="image/sertfikat-1.png" alt="image">
+            <img src="image/sertifikat-2.png" alt="image">
+            <img src="image/sertifikat-3.png" alt="image">
+            <img src="image/sertifikat-4.png" alt="image">
+            <img src="image/sertifikat-5.png" alt="image">
+            <img src="image/sertifikat-6.png" alt="image">
+        </marquee>
+    </section>
+
+    <section class="school-project" id="project">
+        <h1>My <span>Project</span></h1>
+        <div class="slideshow-container fade">
+
+            <!-- Full images with numbers and message Info -->
+            <div class="Containers">
+                <img src="image/image-1.png" style="width:100%">
+                <a href="#" class="btn-info">Lego | UI Landing Page</a>
+            </div>
+
+            <div class="Containers">
+                <img src="image/image-2.png" style="width:100%">
+                <a href="#" class="btn-info">Healthy Food | UI Landing Page</a>
+            </div>
+
+            <div class="Containers">
+                <img src="image/image-3.png" style="width:100%">
+                <a href="#" class="btn-info">Travel Service | UI App</a>
+            </div>
+
+            <div class="Containers">
+                <img src="image/image-4.png" style="width:100%">
+                <a href="#" class="btn-info">Klasea App</a>
+            </div>
+
+            <div class="Containers">
+                <img src="image/image-5.png" style="width:100%">
+                <a href="#" class="btn-info">Lemmi App</a>
+            </div>
+
+            <div class="Containers">
+                <img src="image/image-6.jpg" style="width:100%">
+                <a href="#" class="btn-info">Text Effect Masking</a>
+            </div>
+
+            <!-- Back and forward buttons -->
+            <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The circles/dots -->
+        <div style="text-align:center">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+            <span class="dots" onclick="currentSlide(4)"></span>
+            <span class="dots" onclick="currentSlide(5)"></span>
+            <span class="dots" onclick="currentSlide(6)"></span>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="about-contact">
+            <h2 class="heading">Let's Work</h2>
+            <h2><span>Together!</span></h2>
+        </div>
+        <div>
+            <form action="">
+
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email Addres">
+                </div>
+                <div>
+                    <textarea name="" id="cols" cols="40" rows="8" placeholder="Type your message here"></textarea>
+                </div>
+                <div class="container">
+                    <button type="submit" class="btn-submit" onclick="openPopup()">Submit</button>
+                    <div class="popup" id="popup">
+                        <img src="image/tick.png">
+                        <h2>Thank you</h2>
+                        <p>your details has been success submitted. Thanks!</p>
+                        <button type="button" onclick="closePopup()">OK</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 khairunnisa | All Right Reservered.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href=""><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
